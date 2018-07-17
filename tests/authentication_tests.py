@@ -3,7 +3,7 @@
 
 from unittest import TestCase
 from mock import patch
-import authentication as auth
+import project1.authentication as auth
 
 class StandAloneTests(TestCase):
     """Test the stand-alone module functions."""
