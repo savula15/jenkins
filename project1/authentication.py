@@ -11,3 +11,6 @@ def login(username, password):
     except IOError:
         print "I can't authentication you."
         return False
+
+def logout():
+    print 'You are now logged out.'
